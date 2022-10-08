@@ -4,12 +4,14 @@
     padding: 0;
 }
 body {
-    font-family:"josefin sans", sans-serif;
+    font-family:"josefin Sans", sans-serif;
 }
 main,header {
+    /*padding:1rem;*/
 padding:1rem;
 }
 img {
+    /*default all images to 100%*/
     width: 100%;
 }
 /*header style start*/
@@ -47,6 +49,8 @@ header nav ul li {
     }
     header nav ul li{
         display:inline;
+        font-weight: bold;
+        font-size: 1.2rem;
     }
     #burger-menu {
         display: none;
