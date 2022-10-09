@@ -1,3 +1,4 @@
+/*Reset CSS*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,7 +14,11 @@ padding:1rem;
 img {
     /*default all images to 100%*/
     width: 100%;
-}
+}  
+
+
+
+
 /*header style start*/
 header nav ul li {
     display: none;
@@ -23,6 +28,7 @@ header nav ul li {
     font-size: 2.5rem;
     letter-spacing:2px;
     font-family:"Rancho", cursiv;
+    text-align: center;
 }
 #burger-menu {
     display:inline;
@@ -44,7 +50,8 @@ header nav ul li {
 }
 .hero-buttons {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 
 }
 .hero-buttons :first-child {
@@ -57,19 +64,27 @@ header nav ul li {
     margin-right:15%
 }
 .hero-buttons :last-child{
-    border:none;
+    border: none; 
     background-color: white;
     font-size: 1rem;
+    
+    
 }
+
 .hero-info img{
     margin:3rem 0;
 
 }
+/*#icons {
+    display:inline;
+    width:1px;
+    height:1px;*/
+
 /*header style start*/
 
 @media screen  and (min-width:725px) {
     
-    body{ 
+    body { 
         max-width:960px;
         margin: 0 auto;
     }
@@ -80,7 +95,7 @@ header nav ul li {
     header nav ul {
         display:flex;
         justify-content:space-between;
-        align-items:center;
+        align-items:centre;
 
     }
     header nav ul li{
@@ -93,7 +108,25 @@ header nav ul li {
     }
     .hero {
         display:flex;
+        padding:1rem;
 
+    }
+    .hero-info {
+        padding:1rem;
+    }
+    .hero-info-block {
+        display: block;
+        
+    }
+    
+    #hero-buttons{
+        justify-content: flex-start;
+    }
+    #hero-image{
+        width: 375px;
+        float: 0 auto;
+        margin-left: 150px;
+        justify-content: right;
     }
 }
     
