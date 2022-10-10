@@ -15,6 +15,27 @@ img {
     /*default all images to 100%*/
     width: 100%;
 }  
+.section-title {
+    text-align: center;
+    margin:2rem auto;
+    font-family:"Rancho", cursive;
+    letter-spacing:1px;
+    font-size: 2rem;
+    font-weight: lighter;
+
+}
+.section-title span {
+    display:block;
+    color: #E76F51;
+    margin-top:0.5rem;
+}
+.btn {
+    background-color:#2a9d8f;
+    color:white;
+    padding:0.5rem 1.5rem;
+    border:none;
+    border-radius: 10px;
+}
 
 
 
@@ -75,6 +96,66 @@ header nav ul li {
     margin:3rem 0;
 
 }
+/*specialties-style start*/
+.specialty-catergory{
+    color:#E76F51;
+    font-size:0.9rem;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    position:relative;
+
+}
+.specialty-catergory :after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    height:0.5rem;
+    border-bottom:1px solid black;
+}
+.specialty-description {
+    font-size: 1.rem;
+    font-weight: lighter;
+    padding:1rem;
+
+    
+}
+.specialty-title{
+    font-size:2.6rem;
+    display:block;
+    position:relative;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+.specialty-title :after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    height:0.5rem;
+    border-bottom:1px solid black;
+
+    
+}
+.price {
+    display:flex;
+    justify-content: space-around;
+    align-items: centre;
+    margin-bottom: 1rem;
+    
+
+
+}
+.specialty-img{
+    box-shadow: 5px 5px 15px rgba(200,200,200,0.8);
+    width: 375px;
+    
+}
+
+
 /*#icons {
     display:inline;
     width:1px;
@@ -127,6 +208,37 @@ header nav ul li {
         float: 0 auto;
         margin-left: 150px;
         justify-content: right;
+        margin-bottom: -16px;
+    }
+    .specialties {
+        padding:2rem;
+        background-color: #EFEFEF;
+    }
+    .specialty-item{
+        display:flex;
+        align-items: center;
+        gap:4rem;
+        margin-bottom: 2rem;
+
+    }
+    .specialty-img{
+        width:375px;
+    }
+    .price{
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .price span{
+        margin-bottom: 1rem;
+
+    }
+    .specialty-item :last-child .specialty-img {
+        order:1;
+    }
+    .specialty-item :last-child .speciatlty-info{
+        order:2;
+
     }
 }
     
