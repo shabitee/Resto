@@ -265,7 +265,30 @@ header nav ul li {
     color:#171212;
     font-size: larger;
     font-weight: bolder;
+/*testiomony end*/
 }
+
+/*chefs section begins*/
+.chefs{
+    width:100%;
+    position:relative;
+    top:-120px;
+
+
+}
+.experts{
+    color:#E76F51;
+    text-align:center;
+    top:50px
+
+}
+.nuestra{
+    text-align:center;
+}
+
+
+   
+/*chefs section end*/
 /*.text-text{
     position:relative;
     top:50%;
