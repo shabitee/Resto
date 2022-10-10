@@ -205,6 +205,73 @@ header nav ul li {
 .menu-item p{
     color:#333333;
 }
+/* menu style end*/
+
+/* Testionu style start*/
+.testimony-hero{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: centre;
+    /*transform:translate(-50%, -50%);*/
+
+/*Adding top/left of 50% moves the top/left margin edge of the element*/
+    top: 50%;
+    left:50%;
+    color:white;
+    font-size: 1.4rem;
+    width:80%;
+    height: 100%;
+    font-weight: lighter;
+}
+.testimony img{
+    height: 500px;
+    /*background-color: grey;*/
+}
+.testimony-text{
+    font-size: 6rem;
+    position:relative;
+    top: -500px;
+    text-align: center;
+    color:black;
+}
+.text{
+    position:relative;
+    top:-392px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
+    color:black;
+    font: bolder;
+    padding-right: 10px;
+    padding-left:10px;
+    word-spacing:-0.2rem;
+}    
+.marias{
+    position:relative;
+    top:-300px;
+    color:black;
+    text-align: center;
+    font: bolder;
+    font-size: large;
+    
+
+}
+.dots{
+    position:relative;
+    top:-300px;
+    padding-left:470px;
+    color:#171212;
+    font-size: larger;
+    font-weight: bolder;
+}
+/*.text-text{
+    position:relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}*/
 
 
 /*header style start*/
