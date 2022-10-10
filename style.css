@@ -108,7 +108,7 @@ header nav ul li {
 }
 .specialty-catergory :after{
     content:"";
-    position:absolute;
+    position: absolute;
     bottom:0;
     left:0;
     right:0;
@@ -137,9 +137,9 @@ header nav ul li {
     right:0;
     height:0.5rem;
     border-bottom:1px solid black;
-
-    
 }
+
+
 .price {
     display:flex;
     justify-content: space-around;
