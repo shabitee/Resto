@@ -279,13 +279,50 @@ header nav ul li {
 .experts{
     color:#E76F51;
     text-align:center;
-    top:50px
+    top:50px;
 
 }
 .nuestra{
     text-align:center;
 }
+.img3{
+    float:left;
+    width:33.3%;
+    padding:5px;
+}
+.expert-images{
+    content:"";
+    clear:both;
+    display:table;
+    height:200px;
+    
 
+}
+.imgi{
+    width:470px;
+    height:303px;
+}
+.imgiii{
+    height:303px;
+}
+.expert-info1{
+    width:250px;
+    background-color:wheat;
+    color:black;
+    margin-bottom: -100px;
+    margin-top: -100px;
+    padding-left: 40px;
+    padding-right: 50px;
+    text-align: center;
+    margin-left:100px;
+    margin-right:50px;
+}
+/*.chef1{
+    background-color: #EFEFEF;
+    width:20px;
+    margin-bottom: 2px;
+    margin-top:-50px;
+}*/
 
    
 /*chefs section end*/
@@ -302,8 +339,11 @@ header nav ul li {
 @media screen  and (min-width:725px) {
     
     body { 
-        max-width:960px;
-        margin: 0 auto;
+        /*max-width:960px;*/
+        max-width:1440px;
+        margin-right: 200px;
+        margin-left: 200px;
+        justify-content:right;
     }
     main {
         padding:0;
@@ -390,5 +430,28 @@ header nav ul li {
         margin:0 auto;
         
     }
+}
+@media screen and (min-width:1440px) {
+    .text {
+        padding-left:100px;
+        padding-right:100px;
+        font-weight: bolder;
+        font-size:45px;
+        margin-bottom:-35px;
+        margin-top: -15px;
+        text-align: center;
+    }
+    .marias{
+        text-align: center;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .dots{
+        font-weight: bolder;
+        margin-right: 50px;
+        margin-left: 250px;
+        margin-top:15px;
+    }
+    
 }
     
